@@ -54,7 +54,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: ["http://localhost:3000", "https://justnow-chat.vercel.app", "http://justnow-chat.vercel.app/"],
+    origin: ["http://localhost:3000", "https://justnow-chat.vercel.app", "http://justnow-chat.vercel.app/", "https://justnowchatv1.herokuapp.com/", "http://justnowchatv1.herokuapp.com/"],
     // credentials: true,
   },
 });
